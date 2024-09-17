@@ -1,0 +1,41 @@
+body {
+  background-color: #add8e6; /* Light Blue Background */
+  color: blue; /* White Text */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#progressBar {
+  width: 80%;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#progress {
+  width: 0%;
+  height: 30px;
+  background-color: blue; /* Green Progress Bar */
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
